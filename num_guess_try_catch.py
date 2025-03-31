@@ -14,7 +14,7 @@ def main():
     try:
         integer_as_number = int("integer_as_string")
         print("you entered an integer correctly")
-    except Exception:
+    except ValueError:
         print("That was not an integer")
     finally:
         print("Thanks for playing")
